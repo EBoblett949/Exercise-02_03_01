@@ -17,6 +17,20 @@
     <?php
         $musicalScale = array("do", "re", "me", "fa", "so", "la", "ti", "do");
         $outputString = "The notes of the musical scale are: ";
+        foreach ($musicalScale as $curNote) {
+            $outputString .= " " . $curNote;
+        }
+        echo "<p>$outputString</p>";
+    ?>
+    
+    <h2>Formatted Text</h2>
+    <?php
+        $displayVariable = 9.876;
+        echo "<pre>\n";
+        echo "Unformatted text line 1. \r\n";
+        echo "Unformatted text line 2. \r\n";
+        echo "\$displayVariable = $displayVariable";
+        echo "</pre>\n";
     ?>
 </body>
 </html>
