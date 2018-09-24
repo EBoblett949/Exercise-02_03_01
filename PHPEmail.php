@@ -23,8 +23,7 @@
                                 "jsmith456@test",
                                 "mjones@example",
                                 "mjones@example.net",
-                                "jane.a.doe@example.org",
-                                "@.");
+                                "jane.a.doe@example.org");
         function validateAddress($address) {
             if (strpos($address, '@') !== false && strpos($address, '.') !== false) {
                 return true;
