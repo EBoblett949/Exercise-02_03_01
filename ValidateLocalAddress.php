@@ -14,7 +14,10 @@
 </head>
 <body>
     <?php
+    // variable for the different emails
         $email = array("jsmith123@example.org", "john.smith.mail@example.org", "john.smith@example.org", "john.smith@example", "jsmith123@mail.example.org");
+
+        // loop that checks the array for a match to the regex if it matches it says its valid and if it doesn't it says its not valid 
         foreach ($email as $emailAddresses) {
             echo "The email address &ldquo;" . $emailAddresses . "&rdquo;";
             if (preg_match("/^(([A-Za-z]+\d+)|" . "([A-Za-z]+\.[A-Za-z]+))" . "@((mail\.)?)example\.org$/i", $emailAddresses) == 1) {

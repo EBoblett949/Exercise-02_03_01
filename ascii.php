@@ -13,6 +13,7 @@
     <script src="modernizr.custom.65897.js"></script>
 </head>
 <body>
+<h1>Ascii Letters</h1>
     <?php
         $letter1 = array("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
         $letter2 = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z");

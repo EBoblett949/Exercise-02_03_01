@@ -14,8 +14,10 @@
 </head>
 <body>
     <?php
+    // variable array for credit card numbers
         $creditCard = array("", "8910-1234-5678-6543", "OOOO-9123-4567-0123");
 
+        // this loops through the credit card numbers and checks for validity 
         foreach ($creditCard as $indexNumber => $cardNumber) {
             if (empty($cardNumber)) {
                 echo "<p>Credit Card Number $indexNumber is invalid because it contains an empty string</p>";
